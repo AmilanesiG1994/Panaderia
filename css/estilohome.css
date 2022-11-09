@@ -1,0 +1,144 @@
+header {
+    align-items: flex-end;
+    background-image: url(../img/horno.jfif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+}
+
+header img {
+    width: 20rem;
+}
+
+header .eslogan {
+    border: #F3F1D6;
+    border-width: 1px;
+    color: #F3F1D6;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    width: 30rem;
+}
+
+section {
+    background-color: #F3F1D6;
+    font-style: normal;
+}
+
+section h1 {
+    color: #260B05;
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+section hr {
+    background-color: #260B05;
+    height: 0.5rem;
+    margin: 1rem 2rem;
+}
+
+section.cualidades .iconos {
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+section.cualidades .iconos img {
+    width: 15%;
+}
+
+.descripcion {
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.descripcion blockquote {
+    color: #260B05;
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    text-align: center;
+    width: 33%;
+}
+
+footer.descripcion blockquote p {
+    margin: 0;
+}
+
+
+article.comentarios {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card {
+    align-items: center;
+    background-color: #CEAD83;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    color: #F3F1D6;
+    display: flex;
+    flex-direction: row;
+    height: 15rem;
+    justify-content: space-around;
+    margin-top: 2rem;
+    width: 30rem;
+}
+
+.card img {
+    border-radius: 2rem;
+    height: 11rem;
+    margin-left: 1rem;
+    width: 11rem;
+}
+
+.card .contenido {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+article.comentarios .card .contenido  {
+    margin-top: 1rem;
+    padding-right: 0.5rem;
+}
+
+.boton {
+    background-color: #F3F1D6;
+    box-shadow: 0px, 1px, 10px rgba (0,0,0,0.5);
+    padding: 1rem;
+    margin-top: 2rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.boton-personalizado {
+    background-color: #F94716;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2rem;
+    color: #F3F1D6;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.boton-personalizado:hover {
+    background-color: #FB924B;
+    color: #FFFFFB;
+}
+
+
+
