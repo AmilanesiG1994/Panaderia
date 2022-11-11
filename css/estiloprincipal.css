@@ -70,14 +70,13 @@ nav {
     flex-direction: row;
     height: 5.2rem;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
 }
 
 nav .navegacion {
     display: flex;
     flex-direction: row;
-    padding-top: 1rem;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -87,12 +86,10 @@ nav .navegacion button {
 
 nav .navegacion a {
     color: #F3F1D6;
-    font-size: 30px;
+    font-size: 2rem;
     font-style: italic;
-    padding: 0.5rem 2rem;
     text-decoration: none;
     margin-right: 5rem;
-
 }
 
 nav .navegacion a:hover {
