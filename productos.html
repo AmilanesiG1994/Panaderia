@@ -14,9 +14,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+
+    <script>
+        const loadfn = () => {
+          const _nav = document.querySelector('nav').style;
+          window.addEventListener('scroll', (e) => {
+            if (window.scrollY > 10) {
+              _nav.backgroundColor = '#212121';
+              _nav.boxShadow = '2px 2px 4px rgba(0, 0, 0, 0.5)';
+            } else {
+              _nav.backgroundColor = 'transparent';
+              _nav.boxShadow = 'none';
+            }
+          });
+        };
+      </script>
+
 </head>
 
-<body>
+<body onload="loadfn()">
     <nav>
         <img src="img/logoPequeño.png" alt="icono pequeño">
         <ul>
@@ -26,6 +42,8 @@
             <li><i class="fa-solid fa-user"></i></li>
             <li><i class="fa-solid fa-bag-shopping"></i></li>
         </ul>
+
+
     </nav>
     <header>
         <h1>Nuestros productos:</h1>
