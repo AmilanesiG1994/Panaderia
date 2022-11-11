@@ -110,3 +110,61 @@ header hr {
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
 }
+
+.panel {
+    background-color: #FFFFFB;
+    width: 20vw;
+    height: calc(100vh - 3rem);
+    position: fixed;
+    right: 0;
+    display: none;
+    transition: 0.5s;
+}
+
+.panel h1{
+  text-align: center;
+  font-family: 'Poor Story';
+  font-size: 2rem;
+  color: #F94716;
+  text-decoration: underline;
+}
+  
+.botonpanel{
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin-left: 4em;
+    margin-right: 4em;  
+}
+  .botonpanel a{
+    color: #393939;
+    text-decoration: none;
+  }
+  
+  .panel .botonpanel #botones{
+    border-radius: 20px;
+    background-color: #F94716;
+    padding: 1em;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Arimo', sans-serif;
+    border: none;
+    -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+  }
+
+  .panel .botonpanel #botones a {
+    color: #F3F1D6;
+  }
+
+  .botonpanel #botones:hover {
+      background-color: #FB924B;
+  }
+
+  .carrito {
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: #F94716;
+    color: #F3F1D6;
+  }
+
