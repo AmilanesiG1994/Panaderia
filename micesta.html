@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav>
         <img src="img/logoPequeño.png" alt="icono pequeño">
@@ -20,7 +22,7 @@
             <a href="/home.html">Inicio</a>
             <a href="/productos.html">Productos</a>
             <a href="/pedidoespecial.html">Pedidos Especiales</a>
-            <button class="login"><i class="fa-solid fa-user"></i></button>   
+            <button class="login"><i class="fa-solid fa-user"></i></button>
             <button class="carrito" onclick="abrir_panel()"><i class="fa-solid fa-bag-shopping"></i></button></li>
         </div>
     </nav>
@@ -31,82 +33,107 @@
     </header>
 
     <section>
-        <div class="container">
-            <div class="images">
-              <img src="/img/productos/panAceite.jfif" alt="pan">
+        <article class="lista-articulos">
+            <div class="container">
+                <div class="images">
+                    <img src="/img/productos/panAceite.jfif" alt="pan">
+                </div>
+                <div class="product">
+                    <p>PanPedrín</p>
+                    <h1>Pan de Aceite</h1>
+                    <h2>12.20€</h2>
+                    <div class="cantidad">
+                        <h2>Cantidad:<input type="text" value="3"></h2><span class="icono"><i class="fa-solid fa-square-plus"></i></span><span class="icono"><i class="fa-sharp fa-solid fa-square-minus"></i></span>
+                    </div>
+                    <div class="button">
+                        <button class="remove">Quitar de la cesta</button>
+                    </div>
+                </div>
             </div>
-            <div class="product">
-              <p>PanPedrín</p>
-              <h1>Pan de Aceite</h1>
-              <h2>12.20€</h2>
-              <h2>Cantidad:<input type="text"></h2><i class="fa-duotone fa-square-plus"></i><i class="fa-duotone fa-square-minus"></i>
-             
-              <div class="buttons">
-                <button class="remove">Quitar de la cesta</button>
-              </div>
+            <div class="container">
+                <div class="images">
+                    <img src="/img/productos/panAceite.jfif" alt="pan">
+                </div>
+                <div class="product">
+                    <p>PanPedrín</p>
+                    <h1>Pan de Aceite</h1>
+                    <h2>12.20€</h2>
+                    <div class="cantidad">
+                        <h2>Cantidad:<input type="text" value="3"></h2><span class="icono"><i class="fa-solid fa-square-plus"></i></span><span class="icono"><i class="fa-sharp fa-solid fa-square-minus"></i></span>
+                    </div>
+                    <div class="button">
+                        <button class="remove">Quitar de la cesta</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="images">
-              <img src="/img/productos/panAceite.jfif" alt="pan">
+            <div class="container">
+                <div class="images">
+                    <img src="/img/productos/panAceite.jfif" alt="pan">
+                </div>
+                <div class="product">
+                    <p>PanPedrín</p>
+                    <h1>Pan de Aceite</h1>
+                    <h2>12.20€</h2>
+                    <div class="cantidad">
+                        <h2>Cantidad:<input type="text" value="3"></h2><span class="icono"><i class="fa-solid fa-square-plus"></i></span><span class="icono"><i class="fa-sharp fa-solid fa-square-minus"></i></span>
+                    </div>
+                    <div class="button">
+                        <button class="remove">Quitar de la cesta</button>
+                    </div>
+                </div>
             </div>
-            <div class="slideshow-buttons">
-              <div class="one"></div>
-              <div class="two"></div>
-              <div class="three"></div>
-              <div class="four"></div>
-            </div>
-            <div class="product">
-              <p>PanPedrín</p>
-              <h1>Pan de Aceite</h1>
-              <h2>12.20€</h2>
-              <h2>Cantidad:<input type="text"></h2><i class="fa-duotone fa-square-plus"></i><i class="fa-duotone fa-square-minus"></i>
-             
-              <div class="buttons">
-                <button class="remove">Quitar de la cesta</button>
-              </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="images">
-              <img src="/img/productos/panAceite.jfif" alt="pan">
-            </div>
-            <div class="slideshow-buttons">
-              <div class="one"></div>
-              <div class="two"></div>
-              <div class="three"></div>
-              <div class="four"></div>
-            </div>
-            <div class="product">
-              <p>PanPedrín</p>
-              <h1>Pan de Aceite</h1>
-              <h2>12.20€</h2>
-              <h2>Cantidad:<input type="text"></h2><i class="fa-duotone fa-square-plus"></i><i class="fa-duotone fa-square-minus"></i>
-             
-              <div class="buttons">
-                <button class="remove">Quitar de la cesta</button>
-              </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="images">
-              <img src="/img/productos/panAceite.jfif" alt="pan">
-            </div>
-            <div class="product">
-              <p>PanPedrín</p>
-              <h1>Pan de Aceite</h1>
-              <h2>Cantidad:<input type="text"></h2><i class="fa-duotone fa-square-plus"></i><i class="fa-duotone fa-square-minus"></i>
-              <h2>12.20€</h2>
-              <div class="button">
-                <button class="remove">Quitar de la cesta</button>
-              </div>
-            </div>
-        </div>
-
-
-
+        </article>
+        <article class="resumen">
+                <h1>Resumen.</h1>
+                <p>Subtotal de productos: 2.30€</p>
+                <hr>
+                <h2>TOTAL A PAGAR:<span style="color: #b87952;"> 2.3€</span></h2>
+                <input type="button" value="Tramitar pedido" id="botones">
+            </div>  
+        </article>
     </section>
+    
+    <section class="metodo-pago">
+        <div class="datos">
+            <h1>Método de Pago</h1>
+            <select name="metodo" id="metodo">
+                <option value="VISA">VISA</option>
+              <option value="MasterCard">MASTERCARD</option>
+              <option value="Paypal">PAYPAL</option>
+                </select>
+                <br>
+                <label for="tarjeta">Número de tarjeta</label>
+            <input type="number" value="tarjeta" >
+            <br>
+                <label for="nombre">Titular de la tarjeta</label>
+            <input type="text">
+            <br>
+                <label for="exp">Fecha de expiración</label>
+            <input type="date" value="exp" >
+            <label for="exp">CVV</label>
+            <input type="number" value="exp" min="0" max="999" >
 
+            <div class="ali">
+            <input type="submit" value="Guardar configuración" id="botones" style="background: #707070;">
+            </div>
+        </div>
+        
+            <div class="datos-personales">
+                <h1>Datos Personales</h1>
+                <label for="usuario">Nombre:</label>
+                <input type="text">
+                <label for="usuario">Apellidos:</label>
+                <input type="text">
+                <label for="usuario">Dirección:</label>
+                <input type="text">
+                <label for="usuario">Teléfono</label>
+                <input type="number">
+                <label for="usuario">Correo Electrónico</label>
+                <input type="email">
+            </div>
+        </div>
+      
+    </section>
     <footer>
         <div class="footer_left">
             <div class="content">
@@ -141,4 +168,5 @@
         </div>
     </footer>
 </body>
+
 </html>
