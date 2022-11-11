@@ -119,6 +119,7 @@ header hr {
     right: 0;
     display: none;
     transition: 0.5s;
+    z-index: 120;
 }
 
 .panel h1{
@@ -158,13 +159,5 @@ header hr {
 
   .botonpanel #botones:hover {
       background-color: #FB924B;
-  }
-
-  .carrito {
-    font-size: 2rem;
-    border: none;
-    cursor: pointer;
-    background-color: #F94716;
-    color: #F3F1D6;
   }
 

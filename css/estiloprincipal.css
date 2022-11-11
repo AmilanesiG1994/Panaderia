@@ -68,34 +68,42 @@ nav {
     background-color: #F94716;
     display: flex;
     flex-direction: row;
+    height: 5.2rem;
     justify-content: space-between;
-    height: 5rem;
+    align-content: center;
 }
 
-nav ul {
-    align-items: flex-end;
+nav .navegacion {
     display: flex;
     flex-direction: row;
-    list-style: none;
+    padding-top: 1rem;
+    align-content: center;
+    justify-content: center;
 }
 
-nav ul li {
+nav .navegacion button {
+    margin-right: 5rem;
+}
+
+nav .navegacion a {
     color: #F3F1D6;
-    display: flex;
     font-size: 30px;
     font-style: italic;
     padding: 0.5rem 2rem;
-    margin-right: 3rem;
-
-}
-
-nav ul li a {
-    color: #F3F1D6;
     text-decoration: none;
+    margin-right: 5rem;
+
 }
 
-nav ul li a:hover {
+nav .navegacion a:hover {
     color: #FFFFFB;
     text-decoration: underline;
 }
 
+.carrito, .login {
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: #F94716;
+    color: #F3F1D6;
+}
