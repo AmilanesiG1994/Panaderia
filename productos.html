@@ -16,23 +16,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
 
     <script>
-        const loadfn = () => {
-          const _nav = document.querySelector('nav').style;
-          window.addEventListener('scroll', (e) => {
-            if (window.scrollY > 10) {
-              _nav.backgroundColor = '#212121';
-              _nav.boxShadow = '2px 2px 4px rgba(0, 0, 0, 0.5)';
-            } else {
-              _nav.backgroundColor = 'transparent';
-              _nav.boxShadow = 'none';
-            }
-          });
+        const abrir_panel = () => {
+          const panel = document.querySelectorAll('.panel')[0].style;
+          panel.display = panel.display === 'none' ? 'block' : 'none';
         };
       </script>
 
 </head>
 
-<body onload="loadfn()">
+<body>
     <nav>
         <img src="img/logoPequeño.png" alt="icono pequeño">
         <ul>
@@ -495,9 +487,9 @@
                 <ul>
                     <li><a href="#">Información</a></li>
                     <li><a href="#">¿Quiénes somos?</a></li>
-                    <li><a href="#">Política de privacidad</a></li>
-                    <li><a href="#">Política de cookies</a></li>
-                    <li><a href="#">Condiciones legales</a></li>
+                    <li><a href="/privacidad.html">Política de privacidad</a></li>
+                    <li><a href="/cookies.html">Política de cookies</a></li>
+                    <li><a href="/condicionesgenerales.html">Condiciones legales</a></li>
                 </ul>
             </div>
         </div>
@@ -510,9 +502,7 @@
                 <p>06:00 - 22:00</p>
             </div>
         </div>
-
-
-
+        
         <div class="footer_right">
             <ul>
                 <li>Síguenos en:</li>
